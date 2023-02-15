@@ -15,7 +15,7 @@ const CharList = (props) => {
     const [offset, setOffset] = useState(210);
     const [charsEnded, setCharsEnded] = useState(false);
 
-    const marvelService = new MarvelService();
+    const marvelService = MarvelService();
 
     useEffect(()=>{
         onRequest()

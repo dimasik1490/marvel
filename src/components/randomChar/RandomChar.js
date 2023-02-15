@@ -14,7 +14,7 @@ const RandomChar = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
-    const marvelService = new MarvelService();
+    const marvelService = MarvelService();
 
     useEffect(()=>{
         updateChar();
